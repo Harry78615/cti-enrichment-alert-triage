@@ -1,0 +1,34 @@
+{
+  "name": "acrosstime_train",
+  "rows": 100000,
+  "seed": 42,
+  "steps": [
+    [
+      "loaded",
+      730778
+    ],
+    [
+      "dropped_missing_grade",
+      707108
+    ],
+    [
+      "pool_before_cut",
+      365437
+    ]
+  ],
+  "grade_counts": {
+    "BenignPositive": 50800,
+    "FalsePositive": 27055,
+    "TruePositive": 22145
+  },
+  "label_counts": {
+    "0": 77855,
+    "1": 22145
+  },
+  "n_orgs": 3141,
+  "max_org_share": 0.0375,
+  "sha256_16": "fd70af632f4bf768",
+  "condition": "acrosstime",
+  "role": "train",
+  "cutoff": "2024-06-10"
+}

@@ -1,0 +1,38 @@
+{
+  "sample": "crossorg_train",
+  "rows": 100000,
+  "features_A": 73,
+  "features_B": 102,
+  "label_counts": {
+    "0": 80059,
+    "1": 19941
+  },
+  "technique_coverage_incident_level": 0.3866,
+  "mean_ti_alert_coverage": 0.3816,
+  "mean_techniques_when_present": 1.75,
+  "unmatched_technique_ids_top20": {
+    "T1541": 105,
+    "T1640": 67,
+    "T0807": 26,
+    "T0849": 24,
+    "T1064": 23,
+    "T1639": 20,
+    "T1646": 20,
+    "T0859": 20,
+    "T1043": 19,
+    "T0863": 12,
+    "T0838": 12,
+    "T0820": 8,
+    "T0816": 6,
+    "T0853": 6,
+    "T0827": 5,
+    "T0829": 5,
+    "T0826": 4,
+    "T0885": 3,
+    "T0840": 2,
+    "T0866": 2
+  },
+  "n_unmatched_distinct": 35,
+  "alias_map_size": 149,
+  "elapsed_s": 6.7
+}

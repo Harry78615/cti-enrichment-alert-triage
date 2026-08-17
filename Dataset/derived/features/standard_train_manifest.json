@@ -1,0 +1,38 @@
+{
+  "sample": "standard_train",
+  "rows": 99999,
+  "features_A": 73,
+  "features_B": 102,
+  "label_counts": {
+    "0": 79409,
+    "1": 20590
+  },
+  "technique_coverage_incident_level": 0.352,
+  "mean_ti_alert_coverage": 0.3476,
+  "mean_techniques_when_present": 1.74,
+  "unmatched_technique_ids_top20": {
+    "T1541": 67,
+    "T1640": 43,
+    "T0849": 19,
+    "T1064": 18,
+    "T0807": 18,
+    "T1639": 15,
+    "T1646": 15,
+    "T0859": 14,
+    "T1043": 12,
+    "T0838": 11,
+    "T0820": 7,
+    "T0863": 7,
+    "T0816": 5,
+    "T0827": 5,
+    "T0829": 5,
+    "T0865": 5,
+    "T0858": 5,
+    "T0890": 4,
+    "T0853": 3,
+    "T0866": 2
+  },
+  "n_unmatched_distinct": 26,
+  "alias_map_size": 149,
+  "elapsed_s": 6.6
+}

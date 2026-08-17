@@ -1,0 +1,55 @@
+# =============================================================
+#  MUST NEVER BE PUBLISHED
+# =============================================================
+
+# Copyrighted papers, downloaded for private study only.
+# Publishing them would breach publisher copyright.
+Articles/
+
+# University-provided material
+Dissertation Handbook.pdf
+Meeting Log Template.docx
+
+# Personal, financial or consent documents
+*e-Payments*
+PIS_Consent.docx
+Participant_Information*
+Ethics_Amendment*
+
+
+# =============================================================
+#  Dissertation drafts and research logbook - PRIVATE until marked
+#  (kept out of the public repository at the author's request;
+#   they remain in the local folder and are submitted separately)
+# =============================================================
+SHAH_Dissertation_Draft_Haris.docx
+FInal Proposal/SHAH_Dissertation_Draft_Haris.docx
+FInal Proposal/Research_Logbook_Haris.docx
+FInal Proposal/Research_Logbook_Final.docx
+*Research_Logbook*
+*Dissertation_Draft*
+
+# =============================================================
+#  DATA - excluded for size and licence
+#  GUIDE is ~3.5 GB, redistributed by Microsoft under CDLA-2.0.
+#  Reproducers download it themselves (see README).
+# =============================================================
+Dataset/*.csv
+Dataset/*.json
+Dataset/derived/**/*.csv
+Dataset/derived/**/*.parquet
+Results/predictions/
+
+# Manifests ARE published: they document every sample and feature
+# table (counts, seed, proportions, hashes) without exposing data
+!Dataset/derived/**/*manifest*.json
+!Dataset/derived/**/*columns*.json
+
+# =============================================================
+#  Local clutter
+# =============================================================
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+.~lock*

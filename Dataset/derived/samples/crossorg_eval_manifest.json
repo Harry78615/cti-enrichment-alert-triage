@@ -1,0 +1,37 @@
+{
+  "name": "crossorg_eval",
+  "rows": 50000,
+  "seed": 42,
+  "steps": [
+    [
+      "loaded",
+      730778
+    ],
+    [
+      "dropped_missing_grade",
+      707108
+    ],
+    [
+      "orgs_held_out",
+      1068
+    ],
+    [
+      "pool",
+      190116
+    ]
+  ],
+  "grade_counts": {
+    "BenignPositive": 24151,
+    "FalsePositive": 13784,
+    "TruePositive": 12065
+  },
+  "label_counts": {
+    "0": 37935,
+    "1": 12065
+  },
+  "n_orgs": 799,
+  "max_org_share": 0.05,
+  "sha256_16": "9cddc851ffa90238",
+  "condition": "crossorg",
+  "role": "eval"
+}

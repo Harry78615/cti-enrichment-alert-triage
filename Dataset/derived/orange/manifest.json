@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "note": "Stratified demo subsets for the Orange workflow; primary results come from Pipeline/05.",
+  "files": {
+    "standard_train_A_orange.csv": {
+      "rows": 20000,
+      "features": 73,
+      "class_counts": {
+        "Deprioritise": 15882,
+        "NeedsInvestigation": 4118
+      }
+    },
+    "standard_eval_A_orange.csv": {
+      "rows": 10000,
+      "features": 73,
+      "class_counts": {
+        "Deprioritise": 7937,
+        "NeedsInvestigation": 2063
+      }
+    },
+    "standard_train_B_orange.csv": {
+      "rows": 20000,
+      "features": 102,
+      "class_counts": {
+        "Deprioritise": 15882,
+        "NeedsInvestigation": 4118
+      }
+    },
+    "standard_eval_B_orange.csv": {
+      "rows": 10000,
+      "features": 102,
+      "class_counts": {
+        "Deprioritise": 7937,
+        "NeedsInvestigation": 2063
+      }
+    }
+  }
+}

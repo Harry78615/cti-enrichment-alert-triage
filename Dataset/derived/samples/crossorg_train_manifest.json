@@ -1,0 +1,38 @@
+{
+  "name": "crossorg_train",
+  "rows": 100000,
+  "seed": 42,
+  "steps": [
+    [
+      "loaded",
+      730778
+    ],
+    [
+      "dropped_missing_grade",
+      707108
+    ],
+    [
+      "orgs_kept",
+      4272
+    ],
+    [
+      "pool",
+      516992
+    ]
+  ],
+  "grade_counts": {
+    "BenignPositive": 49442,
+    "FalsePositive": 30617,
+    "TruePositive": 19941
+  },
+  "label_counts": {
+    "0": 80059,
+    "1": 19941
+  },
+  "n_orgs": 2834,
+  "max_org_share": 0.05,
+  "sha256_16": "9128ee033f1475b1",
+  "condition": "crossorg",
+  "role": "train",
+  "held_out_orgs": 1068
+}

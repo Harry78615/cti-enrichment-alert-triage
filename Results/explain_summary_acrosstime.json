@@ -1,0 +1,9 @@
+{
+  "shap_vs_permutation_top10_agreement": 0.5,
+  "ti_features_in_top20": [
+    "mitigations_mean",
+    "technique_age_mean_days",
+    "technique_age_min_days"
+  ],
+  "best_ti_rank": 11
+}

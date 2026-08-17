@@ -1,0 +1,14 @@
+{
+  "source": "Dataset/GUIDE_Train.csv",
+  "out": "Dataset/derived/train_slim.parquet",
+  "rows": 9516837,
+  "columns": [
+    "OrgId",
+    "IncidentId",
+    "AlertId",
+    "Timestamp",
+    "Category",
+    "IncidentGrade"
+  ],
+  "elapsed_s": 15.6
+}

@@ -1,0 +1,24 @@
+{
+  "sample": "crossorg_eval",
+  "rows": 50000,
+  "features_A": 73,
+  "features_B": 102,
+  "label_counts": {
+    "0": 37935,
+    "1": 12065
+  },
+  "technique_coverage_incident_level": 0.2916,
+  "mean_ti_alert_coverage": 0.2886,
+  "mean_techniques_when_present": 1.67,
+  "unmatched_technique_ids_top20": {
+    "T1603": 5,
+    "T1064": 2,
+    "T0827": 2,
+    "T0829": 2,
+    "T1043": 2,
+    "T0890": 1
+  },
+  "n_unmatched_distinct": 6,
+  "alias_map_size": 149,
+  "elapsed_s": 3.4
+}

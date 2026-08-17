@@ -1,0 +1,14 @@
+{
+  "source": "Dataset/derived/train_slim.parquet",
+  "out": "Dataset/derived/train_incident_index.parquet",
+  "incidents": 730778,
+  "grade_counts": {
+    "TruePositive": 145586,
+    "FalsePositive": 214924,
+    "BenignPositive": 346598,
+    "MISSING": 23670
+  },
+  "ts_min": "2023-11-20T16:32:22.000Z",
+  "ts_max": "2024-06-17T14:45:38.000Z",
+  "elapsed_s": 5.0
+}

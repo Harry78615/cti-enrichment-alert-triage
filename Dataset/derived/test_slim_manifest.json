@@ -1,0 +1,14 @@
+{
+  "source": "Dataset/GUIDE_Test.csv",
+  "out": "Dataset/derived/test_slim.parquet",
+  "rows": 4147992,
+  "columns": [
+    "OrgId",
+    "IncidentId",
+    "AlertId",
+    "Timestamp",
+    "Category",
+    "IncidentGrade"
+  ],
+  "elapsed_s": 7.4
+}

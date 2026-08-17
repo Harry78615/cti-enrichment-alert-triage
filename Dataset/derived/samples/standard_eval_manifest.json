@@ -1,0 +1,29 @@
+{
+  "name": "standard_eval",
+  "rows": 50000,
+  "seed": 42,
+  "steps": [
+    [
+      "loaded",
+      303220
+    ],
+    [
+      "dropped_missing_grade",
+      303220
+    ]
+  ],
+  "grade_counts": {
+    "BenignPositive": 24439,
+    "FalsePositive": 15247,
+    "TruePositive": 10314
+  },
+  "label_counts": {
+    "0": 39686,
+    "1": 10314
+  },
+  "n_orgs": 2618,
+  "max_org_share": 0.0394,
+  "sha256_16": "c9518aab06291002",
+  "condition": "standard",
+  "role": "eval"
+}

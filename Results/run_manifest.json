@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "run_at": "2026-08-10T15:39:39",
+  "python": "3.10.12",
+  "sklearn": "1.7.2",
+  "models": {
+    "RandomForest": "RandomForestClassifier(class_weight='balanced', min_samples_leaf=2,\n                       n_estimators=300, n_jobs=-1, random_state=42)",
+    "GradientBoosting": "HistGradientBoostingClassifier(early_stopping=False, max_iter=300,\n                               random_state=42)"
+  },
+  "note": "Binary task; class imbalance via balanced class/sample weights; hyperparameters fixed a priori, not tuned on evaluation data."
+}

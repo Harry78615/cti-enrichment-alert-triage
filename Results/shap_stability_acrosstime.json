@@ -1,0 +1,50 @@
+{
+  "condition": "acrosstime",
+  "n_per_run": 1500,
+  "runs": 3,
+  "top10_per_run": [
+    [
+      "cate_Exfiltration",
+      "enti_CloudLogonSession",
+      "enti_Machine",
+      "cate_SuspiciousActivity",
+      "enti_Process",
+      "enti_CloudLogonRequest",
+      "n_evidence",
+      "enti_File",
+      "evid_Related",
+      "first_alert_dayofweek"
+    ],
+    [
+      "cate_Exfiltration",
+      "enti_CloudLogonSession",
+      "enti_Machine",
+      "cate_SuspiciousActivity",
+      "enti_Process",
+      "n_evidence",
+      "enti_CloudLogonRequest",
+      "enti_File",
+      "evid_Related",
+      "first_alert_dayofweek"
+    ],
+    [
+      "cate_Exfiltration",
+      "enti_CloudLogonSession",
+      "enti_Machine",
+      "cate_SuspiciousActivity",
+      "enti_File",
+      "enti_Process",
+      "n_evidence",
+      "enti_CloudLogonRequest",
+      "evid_Related",
+      "first_alert_dayofweek"
+    ]
+  ],
+  "pairwise_top10_overlap": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "mean_top10_overlap": 1.0,
+  "interpretation": "1.0 means the top-10 features are identical across runs (Warnecke et al. stability criterion)"
+}

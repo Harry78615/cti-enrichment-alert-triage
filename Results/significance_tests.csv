@@ -1,0 +1,7 @@
+condition,model,B_right_A_wrong,A_right_B_wrong,mcnemar_exact_p,significant_at_0.05,net_gain_for_B
+standard,RandomForest,1080,894,3.1e-05,True,186
+standard,GradientBoosting,977,851,0.003449,True,126
+crossorg,RandomForest,882,802,0.054183,False,80
+crossorg,GradientBoosting,895,1255,0.0,True,-360
+acrosstime,RandomForest,980,1029,0.284209,False,-49
+acrosstime,GradientBoosting,988,992,0.94625,False,-4

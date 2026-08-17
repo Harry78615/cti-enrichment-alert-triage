@@ -1,0 +1,29 @@
+{
+  "name": "standard_train",
+  "rows": 99999,
+  "seed": 42,
+  "steps": [
+    [
+      "loaded",
+      730778
+    ],
+    [
+      "dropped_missing_grade",
+      707108
+    ]
+  ],
+  "grade_counts": {
+    "BenignPositive": 49015,
+    "FalsePositive": 30394,
+    "TruePositive": 20590
+  },
+  "label_counts": {
+    "0": 79409,
+    "1": 20590
+  },
+  "n_orgs": 3271,
+  "max_org_share": 0.0396,
+  "sha256_16": "65c2775eb3debe81",
+  "condition": "standard",
+  "role": "train"
+}

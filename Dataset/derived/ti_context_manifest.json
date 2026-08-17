@@ -1,0 +1,8 @@
+{
+  "mode": "stix",
+  "techniques": 697,
+  "revoked_aliases": 149,
+  "out": "Dataset/derived/ti_context.csv",
+  "elapsed_s": 0.3,
+  "extracted_at": "2026-08-10T15:33:56"
+}
