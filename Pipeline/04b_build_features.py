@@ -4,7 +4,7 @@ Step 04b - Build model-ready feature tables from the cached aggregates (04a).
 For each of the six protocol samples writes two CSVs:
     <sample>_A.csv - plain alert features only
     <sample>_B.csv - the same features plus the threat-intelligence block
-A and B differ ONLY in the TI columns (matched-model design, Feature_Set_Design_Haris.docx v1).
+A and B differ ONLY in the TI columns.
 
 Leakage controls: IncidentGrade, ActionGrouped, ActionGranular, LastVerdict, OrgId and raw
 high-cardinality identifiers are never features. TI context is joined from ti_context.csv
@@ -12,7 +12,7 @@ using only MitreTechniques, which is available at alert time. Revoked technique 
 resolved through ti_alias.csv before being counted as unmatched.
 
 Usage: python3 Pipeline/04b_build_features.py
-Outputs: Dataset/derived/features/*.csv (+ manifest each, carrying the RQ1 coverage numbers)
+Outputs: Dataset/derived/features/*.csv 
 """
 import os, json, time, glob
 import pandas as pd, numpy as np
