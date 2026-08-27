@@ -1,8 +1,4 @@
 """
-Step 01a - One-off conversion of the raw GUIDE CSVs to slim Parquet.
-Keeps only the 6 columns the sampling protocol needs, preserving values exactly.
-Parquet is a compressed columnar format: later steps read it 10-50x faster than CSV.
-Raw CSVs remain untouched (read-only source of truth).
 Usage: python3 Pipeline/01a_convert_slim.py train|test
 """
 import sys, time, json
